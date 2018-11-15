@@ -1,0 +1,14 @@
+<p>Login Form</p>
+<hr>
+<form class="login" >
+<div class="textfield">
+  <label ><b>Username</b></label>
+  <input type="text"  name="uname" placeholder="Enter username"  [(ngModel)]="uname"  required>
+</div>
+<div class="password" >
+  <label><b>Password</b></label>
+  <input type="password" name="pname" placeholder="Enter password" [(ngModel)]= "pname" required>
+</div>
+  <button routerLink="/dashboard" (click)="onSubmit()">Submit</button>
+</form>
+   
